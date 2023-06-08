@@ -1,5 +1,5 @@
 {
-  "name": "@ir/mui-utils",
+  "name": "@iremote/mui-utils",
   "version": "1.0.0",
   "description": "A set of utility components for Material-UI in React applications",
   "main": "dist/index.js",

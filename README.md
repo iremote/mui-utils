@@ -1,4 +1,4 @@
-# @ir/mui-utils
+# @iremote/mui-utils
 
 A set of utility components for Material-UI in React applications.
 
@@ -7,7 +7,7 @@ A set of utility components for Material-UI in React applications.
 To install the package, you can use either npm or yarn:
 
 ```shell
-npm install @ir/mui-utils
+npm install @iremote/mui-utils
 ```
 
 # API
@@ -33,7 +33,7 @@ A flag that determines whether to hide the countdown number in the center of the
 ### `Usage`
 
 ```jsx
-import { TimedCircularProgress } from '@ir/mui-utils';
+import { TimedCircularProgress } from '@iremote/mui-utils';
 
 function MyApp() {
   return <TimedCircularProgress counterStart={10} hideCounter={false} />;
