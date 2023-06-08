@@ -12,7 +12,7 @@ function TimedCircularProgress({ counterStart = 5, hideCounter = false }: TimedC
 
   useEffect(() => {
     if (counter > 0) {
-      const timer = setInterval(() => setCounter(prevCounter => prevCounter - 1), 1000);
+      const timer = setInterval(() => setCounter(prevState => prevState - 1), 1000);
       return () => clearInterval(timer);
     } else {
       setLoading(false);
