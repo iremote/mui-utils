@@ -9,7 +9,7 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "lib": ["es2018", "dom"],
-    "types": ["node", "jest"],
+    "types": ["node"],
     "jsx": "react-jsx",
     "outDir": "dist"
   },
